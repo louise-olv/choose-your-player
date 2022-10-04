@@ -1,0 +1,125 @@
+/* style.css */
+body { 
+font-size: 15px;
+line-height: 1,5;
+letter-spacing: 2px;
+ }
+h1 {
+  color: ghostwhite;
+  text-align: center;
+  font-size: 70px;
+  font-family: Gemunu libre;
+
+  }
+
+  h2 {
+    font-family: arial;
+    color: ghostwhite;
+    text-align: center;
+    font-size: 30px;
+    font-family: Gemunu libre;
+    }
+    h3 {
+      font-size: 50px;
+      font-family: Gemunu libre;
+      text-align: center;
+
+    }
+    h4 {
+      font-family: Gemunu libre;
+    }
+      a{
+        text-decoration: none;
+        text-align: center;
+        color: black;
+        font-size: 20px;
+        font-family: Gemunu libre;
+        
+      }
+
+      .banner {
+background-image: url("images/etoile.jpg");
+text-align: center;
+padding: 150px;
+background-size: cover;
+background-position: center;
+
+       }
+       .cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+
+  #footer {
+  background-color:black;
+  color: ghostwhite;
+  text-align: center;
+  margin: 30px;
+  padding: 15px;
+  }
+
+  .container {
+  padding: 150px;
+  margin: auto;
+  border: 10 px black;
+}
+
+.card-white{
+  border: 10px black;
+  box-shadow: 10px 20px 30px darkgrey;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.card-white img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;  
+}
+
+.card-white{
+  border: 10 px black;
+  box-shadow: 10px 20px 30px darkgrey;
+  margin: 2px;
+  padding: 2px;
+  width: 200px;
+}
+.button-blue{background-color: ghostwhite;
+  color: ghostwhite;padding: 16px 48px;
+  border-radius: 4px;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s;
+
+}
+@media (max-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+ 
+  .card-white {
+    width: auto;
+  }
+}
+ 
+/* Container media queries */
+@media (min-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+
+@media (min-width: 800px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    width: 800px;
+  }
